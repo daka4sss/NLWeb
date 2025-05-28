@@ -201,8 +201,9 @@
 
      <Prompt ref="SummarizeResultsPrompt">
       <promptString>
-        Given the following items, summarize the results as an answer to the user's question. `
-        The user's question is: {request.query}. 
+        Given the following items, summarize the results as an answer to the user's question.
+        Reply in the same language that the user used in the question.
+        The user's question is: {request.query}.
         The items are: {request.answers}.
       </promptString>
       <returnStruc>
