@@ -1,4 +1,5 @@
 # What is NLWeb
+[日本語版はこちら](README.ja.md)
 
 Building conversational interfaces for websites is hard. NLWeb seeks to make it easy for websites to do this. And since NLWeb natively speaks MCP, the same natural language APIs can be used both by humans and agents.
 
